@@ -1,0 +1,110 @@
+.bg-image {
+    background-image: url("../img/footer-bg.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    
+}
+
+.bg-color {
+    background-color: #EB6B60;
+}
+
+.text-color {
+    color: #EB6B60;
+}
+
+.text-color-shadow {
+    color: #eb6c6022;
+
+
+}
+
+/* Без нижних стилей никак не сделать адаптацию */
+
+.banner-bg {
+    width: 650px;
+    height: auto;
+
+}
+
+@media (max-width:1200px) {
+    .banner-bg {
+        width: 500px;
+    }
+}
+
+@media (max-width:980px) {
+    .banner-bg {
+        width: 350px;
+    }
+}
+
+@media (max-width:768px) {
+    .banner-bg {
+        width: 250px;
+    }
+}
+
+.bg-decor {
+    width: 400px;
+    height: auto;
+}
+
+@media (max-width:992px) {
+    .bg-decor {
+        width: 0;
+    }
+
+    .bg-decor-text {
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    .img-slider {
+        position: absolute;
+        margin-left: -40px;
+        margin-top: -40px;
+        width: 75px;
+    }
+
+    .text-slider {
+        position: none;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+
+@media (max-width:992px) {
+    .img-slider {
+        position: absolute;
+        margin-left: -40px;
+        margin-top: -40px;
+        width: 75px;
+    }
+
+    .text-slider {
+        position: none;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+
+@media (max-width:376px) {
+
+    .img-slider {
+        position: absolute;
+        margin-left: -40px;
+        margin-top: -40px;
+        
+    }
+
+    .text-slider {
+        padding: 0;
+        margin: 0;
+    }
+}
